@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.center-label {
+    display: block; /* Torna a label um elemento de bloco */
+    text-align: center;
+}
+
+
+.container {
+    width: 100%;
+    text-align: center;
+
+}
+.custom-input {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 1px solid #000; /* Cor e espessura da borda */
+    padding: 5px; /* Espaçamento interno */
+    outline: none; /* Remove o contorno ao focar */
+}
