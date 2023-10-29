@@ -1,28 +1,56 @@
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom, #ffcc00, #ff6600);
+
 }
 
-
-.center-label {
-    display: block; /* Torna a label um elemento de bloco */
+.custom-label {
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
     text-align: center;
 }
 
+.custom-button {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   text-align: center;
+    font-size: medium;
+    color: white;
+    width: 85%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color:#da0000;
+}
+
+.custom-button:hover{
+    background-color:#ff0000;
+}
 
 .container {
-    width: 100%;
+    padding: 5%;
+    border: 2px solid #d75701;
     text-align: center;
-
+    border-radius: 10px;
+  
 }
 .custom-input {
-    width: 100%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border: 1px solid #000; /* Cor e espessura da borda */
-    padding: 5px; /* Espaçamento interno */
-    outline: none; /* Remove o contorno ao focar */
+
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid #d75701;;
+    padding: 5px;
+    outline: none; 
+    background-color: cornsilk;
 }
